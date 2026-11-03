@@ -1,11 +1,13 @@
 package vn.edu.ute.datphong.model
-import java.io.Serializabledata
-class DonDatPhong (
+
+import java.io.Serializable
+
+data class DonDatPhong(
     val hoTen: String,
     val sdt: String,
     val email: String,
     val maLoaiPhong: String,
-    val ngayNgan: String,
+    val ngayNhan: String,
     val soDem: Int,
     val soKhach: Int,
     val ghiChu: String = ""
